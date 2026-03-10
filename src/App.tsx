@@ -2,7 +2,7 @@
  * @license
  * SPDX-License-Identifier: Apache-2.0
  */
-import profile from "./assets/me3.jpeg";
+import profile from "./assets/me4.jpeg";
 import amazonimage from "./assets/projects/amazonimage.png";
 import animalimage from "./assets/projects/animalimage.jpg";
 import cloudyspaceimage from "./assets/projects/cloudyspaceimage.jpg";

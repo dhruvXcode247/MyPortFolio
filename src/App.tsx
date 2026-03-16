@@ -107,6 +107,26 @@ const CERTIFICATES: Certificate[] = [
     issuer: 'MongoDB', 
     date: '2025',
   },
+  { 
+    title: 'AI For Beginners', 
+    issuer: 'HP Life', 
+    date: '2025',
+  },
+  { 
+    title: 'Machine Learning Basics', 
+    issuer: 'AWS', 
+    date: '2025',
+  },
+  { 
+    title: 'Cybersecurity Job Simulation', 
+    issuer: 'Mastercard', 
+    date: '2025',
+  },
+  { 
+    title: 'Introduction to Ethical Hacking', 
+    issuer: 'LearnTube.ai', 
+    date: '2025',
+  },
 ];
 
 const ACHIEVEMENTS: Achievement[] = [

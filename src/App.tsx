@@ -88,6 +88,11 @@ const CERTIFICATES: Certificate[] = [
     date: '2025',
   },
   { 
+    title: 'IT Customer Support Basics', 
+    issuer: 'Cisco', 
+    date: '2026',
+  },
+  { 
     title: 'Network Security Fundamentals', 
     issuer: 'Palo Alto Networks', 
     date: '2025',
@@ -97,15 +102,30 @@ const CERTIFICATES: Certificate[] = [
     issuer: 'TCS iON', 
     date: '2025',
   },
-    { 
+  { 
+    title: 'Cybersecurity Foundation', 
+    issuer: 'Palo Alto Networks', 
+    date: '2026',
+  },
+  { 
     title: 'Introduction to Image Generation with Google Cloud', 
     issuer: 'Udacity', 
     date: '2025',
   },
-    { 
+  { 
+    title: 'Cybersecurity Academy Onboarding', 
+    issuer: 'Palo Alto Networks', 
+    date: '2026',
+  },
+  { 
     title: 'Vector Search Fundamentals & Semantic Search', 
     issuer: 'MongoDB', 
     date: '2025',
+  },
+  { 
+    title: 'Python Essentials 1', 
+    issuer: 'Cisco', 
+    date: '2026',
   },
   { 
     title: 'AI For Beginners', 
@@ -131,6 +151,11 @@ const CERTIFICATES: Certificate[] = [
 
 const ACHIEVEMENTS: Achievement[] = [
   {
+    title: 'GATE 2026 Qualified',
+    description: 'Secured an All India Rank of 26568 out of 2.5 lakh+ candidates',
+    date: '2026'
+  },
+  {
     title: 'AIM OVERSEAS English Scholarship Test',
     description: 'Secured a Gold Medal alongside the TOP 50 students across cities.',
     date: '2023'
@@ -148,6 +173,13 @@ const ACHIEVEMENTS: Achievement[] = [
 ];
 
 const PROJECTS: Project[] = [
+  {
+    title: 'AI Powered Student Performance Prediction System',
+    description: 'Executed a Flask-based full-stack app with Random Forest ML model for student performance prediction.',
+    tags: ['Python', 'Numpy', 'Pandas', 'Random Forest', 'Flask', 'Render'],
+    github: 'https://github.com/dhruvXcode247/StudoPredi',
+    image: studentperformance
+  },
   {
     title: 'Space Weather Visualizer',
     description: 'Built an interactive real-time dashboard for monitoring solar wind patterns, geomagnetic disturbances, and radiation levels.',

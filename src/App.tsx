@@ -405,7 +405,7 @@ export default function App() {
               </a>
             ))}
                 <a
-                  href="/DhruvResume.pdf"
+                  href="/DhruvSharmaResumeCy.pdf"
                   download
                   className="bg-emerald-600 text-white px-5 py-2 rounded-full text-sm font-medium hover:bg-emerald-700 transition-all shadow-lg shadow-emerald-200"
                 >

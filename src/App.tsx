@@ -5,6 +5,7 @@
 import profile from "./assets/me5.jpeg";
 import amazonimage from "./assets/projects/amazonimage.png";
 import animalimage from "./assets/projects/animalimage.jpg";
+import studentperformance from "./assets/projects/studentperformance.png";
 import cloudyspaceimage from "./assets/projects/cloudyspaceimage.jpg";
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
@@ -53,6 +54,7 @@ interface Project {
   description: string;
   tags: string[];
   github?: string;
+  image: string;
 }
 
 // --- Data ---
@@ -439,7 +441,7 @@ export default function App() {
                 </a>
               ))}
                 <a
-                  href="/DhruvResume.pdf"
+                  href="/DhruvSharmaResumeCy.pdf"
                   download
                   className="bg-emerald-600 text-white px-5 py-2 rounded-full text-sm font-medium hover:bg-emerald-700 transition-all shadow-lg shadow-emerald-200"
                 >
